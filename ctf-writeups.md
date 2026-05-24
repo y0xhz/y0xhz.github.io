@@ -17,10 +17,14 @@ description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casu
 
 <div class="filter-bar">
   <button class="filter-btn active" onclick="filterMissions('all')">ALL MISSIONS</button>
-  <button class="filter-btn" onclick="filterMissions('htb')">HACK THE BOX</button>
+  <button class="filter-btn" onclick="filterMissions('htb')">HACKTHEBOX</button>
+  <button class="filter-btn" onclick="filterMissions('htb-business-2026')">HTB BUSINESS 2026</button>
+  <button class="filter-btn" onclick="filterMissions('full-pwn')">FULL PWN</button>
+  <button class="filter-btn" onclick="filterMissions('quantum')">QUANTUM</button>
+  <button class="filter-btn" onclick="filterMissions('coding')">CODING</button>
+  <button class="filter-btn" onclick="filterMissions('osint')">OSINT</button>
   <button class="filter-btn" onclick="filterMissions('thm')">TRYHACKME</button>
   <button class="filter-btn" onclick="filterMissions('web')">WEB</button>
-  <button class="filter-btn" onclick="filterMissions('crypto')">CRYPTO</button>
   <button class="filter-btn" onclick="filterMissions('pwn')">PWN</button>
   <button class="filter-btn" onclick="filterMissions('rev')">REVERSE</button>
   <button class="filter-btn" onclick="filterMissions('forensics')">FORENSICS</button>
@@ -29,6 +33,15 @@ description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casu
 ---
 
 ## 📋 MISSION LOG
+
+<div class="mission-card status-wip" data-tags="htb htb-business-2026 full-pwn quantum coding osint">
+  <div class="mission-status">🚧 WIP</div>
+  <h3 style="margin-top: 0.5rem;">Hackthebox Business CTF 2026</h3>
+  <p><strong>Event:</strong> Hackthebox Business 2026 · <strong>Platform:</strong> Hackthebox</p>
+  <p><strong>Categories:</strong> Full Pwn · Quantum · Coding · OSINT</p>
+  <p>Casual participation in the Hackthebox Business CTF 2026. Writeups covering challenges across full pwn, quantum cryptography, coding, and OSINT categories. Focus on technique breakdowns and educational value.</p>
+  <p style="margin-bottom: 0;"><em>Writeups in progress — check back soon.</em></p>
+</div>
 
 <div class="mission-card status-wip" data-tags="htb pwn">
   <div class="mission-status">🔒 UPCOMING</div>
@@ -41,7 +54,7 @@ description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casu
 <div class="mission-card status-wip" data-tags="htb web">
   <div class="mission-status">🔒 UPCOMING</div>
   <h3 style="margin-top: 0.5rem;">Advanced Web Exploitation Series</h3>
-  <p><strong>Platform:</strong> Hack The Box · <strong>Category:</strong> Web · <strong>Difficulty:</strong> ⭐⭐⭐⭐☆ Epic</p>
+  <p><strong>Platform:</strong> Hackthebox · <strong>Category:</strong> Web · <strong>Difficulty:</strong> ⭐⭐⭐⭐☆ Epic</p>
   <p>Deep-dive into modern web application vulnerabilities: SSRF chains, prototype pollution, JWT manipulation, and GraphQL injection techniques.</p>
   <p style="margin-bottom: 0;"><em>Writeups in draft — scheduled for Q3 2026.</em></p>
 </div>
@@ -70,13 +83,14 @@ When writeups are published, they follow this structure:
 ```
 ╔════════════════════════════════════════╗
 ║  MISSION BRIEFING                      ║
-║  ├── Target Info                       ║
+║  ├── Event / Platform                  ║
+║  ├── Challenge Category                ║
 ║  ├── Difficulty Rating                 ║
 ║  └── Initial Recon Notes               ║
 ╠════════════════════════════════════════╣
 ║  PHASE 1: RECONNAISSANCE               ║
-║  ├── Nmap / Service Enumeration        ║
-║  └── Web App Mapping                   ║
+║  ├── Service Enumeration               ║
+║  └── Web App / Binary Mapping          ║
 ╠════════════════════════════════════════╣
 ║  PHASE 2: INITIAL FOOTHOLD             ║
 ║  ├── Vulnerability Identification      ║

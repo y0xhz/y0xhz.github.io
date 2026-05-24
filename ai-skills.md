@@ -7,21 +7,21 @@ description: "AI-powered skills and automation projects built by y0xhz using Cla
 
 <div style="text-align: center; margin-bottom: 2rem;">
   <p style="font-family: var(--font-pixel); font-size: 1rem; color: var(--c-yellow); text-shadow: 0 0 20px rgba(255, 255, 0, 0.5);">
-    ✨ NEW SKILL ACQUIRED! ✨
+    🔨 SKILL UNDER DEVELOPMENT 🔨
   </p>
 </div>
 
 ---
 
 <div class="skill-scroll">
-  <h3 style="color: var(--c-purple); margin-top: 0;">🤖 Claude Code Automation Skill</h3>
+  <h3 style="color: var(--c-purple); margin-top: 0;">🤖 AI-Assisted Offensive Security Skill</h3>
   
-  <div class="skill-badge">Forged by Claude Code</div>
+  <div class="skill-badge">Forging in Progress</div>
   
   <p style="font-size: 0.9rem; color: var(--c-light); margin: 1.5rem 0;">
-    A custom AI skill built using Claude Code to automate and enhance offensive security workflows. 
-    Demonstrates the intersection of AI-assisted development and cybersecurity operations — from rapid 
-    tool prototyping to intelligent log analysis and automated reporting generation.
+    A custom AI skill being forged using Claude Code to automate and enhance offensive security workflows.
+    Currently under active development — exploring the intersection of AI-assisted development and 
+    cybersecurity operations, from rapid tool prototyping to intelligent log analysis and automated reporting generation.
   </p>
 
   <h4 style="color: var(--c-cyan); font-size: 0.7rem;">🔧 TECH STACK</h4>
@@ -42,7 +42,7 @@ description: "AI-powered skills and automation projects built by y0xhz using Cla
   </div>
 
   <p style="font-size: 0.75rem; color: var(--c-dim); margin-top: 1rem;">
-    📅 Date Acquired: May 2026
+    📅 Status: In Development · Last Updated: May 2026
   </p>
 </div>
 

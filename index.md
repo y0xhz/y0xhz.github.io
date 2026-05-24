@@ -8,12 +8,12 @@ description: "Portfolio of y0xhz — Senior Penetration Tester, Red Team Operato
 <div class="hero-ascii">
 
 ```
- ██╗   ██╗ ██████╗ ██╗  ██╗██╗  ██╗███████╗
- ╚██╗ ██╔╝██╔═══██╗╚██╗██╔╝╚██╗██╔╝╚══███╔╝
-  ╚████╔╝ ██║   ██║ ╚███╔╝  ╚███╔╝   ███╔╝ 
-   ╚██╔╝  ██║   ██║ ██╔██╗  ██╔██╗  ███╔╝  
-    ██║   ╚██████╔╝██╔╝ ██╗██╔╝ ██╗███████╗
-    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+ ██╗   ██╗  ██████╗  ██╗  ██╗ ██╗  ██╗ ███████╗
+ ╚██╗ ██╔╝ ██╔═══██╗ ╚██╗██╔╝ ╚██╗██╔╝ ╚══███╔╝
+  ╚████╔╝  ██║   ██║  ╚███╔╝   ╚███╔╝    ███╔╝ 
+   ╚██╔╝   ██║   ██║  ██╔██╗   ██╔██╗   ███╔╝  
+    ██║    ╚██████╔╝ ██╔╝ ██╗ ██╔╝ ██╗ ███████╗
+    ╚═╝     ╚═════╝  ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚══════╝
 ```
 
 </div>
@@ -48,8 +48,8 @@ description: "Portfolio of y0xhz — Senior Penetration Tester, Red Team Operato
 
   <div class="card pixel-box--lime">
     <h3>🤖 AI Skill: Claude Code</h3>
-    <p class="card-meta">AI Skill · Completed</p>
-    <p>Forged a custom AI skill using Claude Code. Demonstrates automation and AI-assisted offensive security workflows.</p>
+    <p class="card-meta">AI Skill · In Development</p>
+    <p>Forging a custom AI skill using Claude Code. Exploring automation and AI-assisted offensive security workflows.</p>
     <p><a href="{{ '/ai-skills' | relative_url }}">→ View AI Skills</a></p>
   </div>
 </div>

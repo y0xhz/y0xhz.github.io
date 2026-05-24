@@ -85,6 +85,6 @@ description: "Certifications and professional achievements of y0xhz — OSCP, CR
 
 <div class="pixel-box pixel-box--lime" style="text-align: center;">
   <p style="font-family: var(--font-pixel); font-size: 0.65rem; color: var(--c-lime); margin: 0;">
-    🎯 CURRENT QUEST: Complete CRTO2 & HTB CAPE before September 2026
+    🎯 CURRENT QUEST: Complete CRTO2 & HTB CAPE
   </p>
 </div>
