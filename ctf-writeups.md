@@ -1,19 +1,20 @@
 ---
 layout: page
 title: "CTF Writeups"
-subtitle: "Mission Select Screen"
+subtitle: "<span class='retro-only'>Mission Select Screen</span><span class='pro-only'>Writeups</span>"
 description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casual player — writeups shared for educational purposes."
 ---
 
 <div class="mission-banner">
-  🎮 ARCADE MODE — CASUAL PLAYER — WRITEUPS FOR EDUCATION ONLY 🎮
+  <span class="retro-only">🎮 ARCADE MODE — CASUAL PLAYER — WRITEUPS FOR EDUCATION ONLY 🎮</span>
+  <span class="pro-only">CTF Writeups — Casual player, no competitive rankings</span>
 </div>
 
 > **Note:** I play CTFs for fun and learning, not active competition. You won't find rankings, leaderboard positions, or competitive stats here — just honest walkthroughs and technique breakdowns.
 
 ---
 
-## 🔍 FILTER CONTROLS
+## 🔍 Filter Controls
 
 <div class="filter-bar">
   <button class="filter-btn active" onclick="filterMissions('all')">ALL MISSIONS</button>
@@ -31,7 +32,7 @@ description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casu
 
 ---
 
-## 📋 MISSION LOG
+## 📋 <span class="retro-only">MISSION LOG</span><span class="pro-only">Writeups</span>
 
 <div class="mission-card status-wip" data-tags="htb htb-business-2026 full-pwn coding osint">
   <div class="mission-status">🚧 WIP</div>
@@ -44,10 +45,10 @@ description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casu
 
 ---
 
-## 🚧 UPCOMING PROJECTS
+## 🚧 <span class="retro-only">UPCOMING PROJECTS</span><span class="pro-only">Upcoming</span>
 
-<div class="pixel-box" style="border-style: dashed; border-color: var(--c-yellow);">
-  <h3 style="color: var(--c-yellow); margin-top: 0;">🏗️ CTF CHALLENGE — UNDER CONSTRUCTION</h3>
+<div class="pixel-box" style="border-style: dashed; border-color: var(--warning);">
+  <h3 style="color: var(--warning); margin-top: 0;">🏗️ CTF CHALLENGE — UNDER CONSTRUCTION</h3>
   <p>Building a custom and challenge repository.</p>
 </div>
 

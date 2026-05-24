@@ -14,7 +14,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="theme-color" content="#FF0055">
+  <meta name="theme-color" content="#0B0F19">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
@@ -22,6 +22,8 @@
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <div class="crt-overlay" aria-hidden="true"></div>
+
+  <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙 Retro Mode</button>
 
   <nav class="site-nav" role="navigation" aria-label="Main navigation">
     <div class="nav-container">
@@ -46,17 +48,47 @@
   </main>
 
   <footer class="site-footer" role="contentinfo">
-    <p class="press-start">▶ PRESS START</p>
-    <p style="font-size:0.5rem; margin-top:1rem; color:#555;">
+    <p class="press-start retro-only">▶ PRESS START</p>
+    <p class="pro-only" style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--text-secondary); font-weight: 500;">y0xhz</p>
+    <p style="font-size:0.75rem; margin-top:1rem; color: var(--text-muted);">
       © {{ 'now' | date: '%Y' }} y0xhz · Senior Penetration Tester · Indonesia<br>
-      Built with Jekyll · Retro Game Aesthetic
+      <span class="pro-only">Built with Jekyll</span><span class="retro-only">Built with Jekyll · Retro Game Aesthetic</span>
     </p>
   </footer>
 
   <script>
-    // Simple console easter egg
-    console.log('%c▶ PLAYER 1 READY', 'color:#FF0055; font-size:24px; font-weight:bold;');
-    console.log('%cy0xhz | Red Team Operator | https://y0xhz.github.io', 'color:#00FF00; font-size:14px;');
+    (function() {
+      const html = document.documentElement;
+      const saved = localStorage.getItem('theme');
+      if (saved === 'retro') {
+        html.setAttribute('data-theme', 'retro');
+      }
+
+      window.toggleTheme = function() {
+        const isRetro = html.getAttribute('data-theme') === 'retro';
+        if (isRetro) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'pro');
+        } else {
+          html.setAttribute('data-theme', 'retro');
+          localStorage.setItem('theme', 'retro');
+        }
+        updateToggleLabel();
+      };
+
+      function updateToggleLabel() {
+        const btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        const isRetro = html.getAttribute('data-theme') === 'retro';
+        btn.innerHTML = isRetro ? '🎮 Pro Mode' : '🌙 Retro Mode';
+      }
+
+      updateToggleLabel();
+    })();
+
+    // Console easter egg
+    console.log('%c▶ y0xhz', 'color:#06b6d4; font-size:20px; font-weight:bold;');
+    console.log('%cSenior Penetration Tester | Red Team Operator | https://y0xhz.github.io', 'color:#94a3b8; font-size:12px;');
   </script>
 </body>
 </html>

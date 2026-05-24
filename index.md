@@ -5,6 +5,8 @@ description: "Portfolio of y0xhz — Senior Penetration Tester, Red Team Operato
 ---
 
 <div class="hero">
+
+<div class="retro-only">
 <div class="hero-ascii">
 
 ```
@@ -19,17 +21,32 @@ description: "Portfolio of y0xhz — Senior Penetration Tester, Red Team Operato
 </div>
 
 <p class="hero-tagline typing-cursor">PLAYER 1 READY — Senior Penetration Tester | Red Team Operator | CTF Hobbyist</p>
+</div>
+
+<div class="pro-only">
+  <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">y0xhz</h1>
+  <p class="hero-tagline typing-cursor" style="font-size: 1.15rem; max-width: 600px; margin: 0 auto 2rem;">Senior Penetration Tester | Red Team Operator | CTF Hobbyist</p>
+</div>
 
 <div class="cta-grid">
-  <a href="{{ '/red-team-arsenal' | relative_url }}" class="cta-button cta-button--magenta">🪙 INSERT COIN — Red Team Arsenal</a>
-  <a href="{{ '/ai-skills' | relative_url }}" class="cta-button cta-button--cyan">🎮 PLAYER SELECT — AI Skills</a>
-  <a href="{{ '/ctf-writeups' | relative_url }}" class="cta-button cta-button--yellow">🏆 HIGH SCORES — CTF Writeups</a>
+  <a href="{{ '/red-team-arsenal' | relative_url }}" class="cta-button cta-button--magenta">
+    <span class="retro-only">🪙 INSERT COIN — Red Team Arsenal</span>
+    <span class="pro-only">Red Team Arsenal</span>
+  </a>
+  <a href="{{ '/ai-skills' | relative_url }}" class="cta-button cta-button--cyan">
+    <span class="retro-only">🎮 PLAYER SELECT — AI Skills</span>
+    <span class="pro-only">AI Skills</span>
+  </a>
+  <a href="{{ '/ctf-writeups' | relative_url }}" class="cta-button cta-button--yellow">
+    <span class="retro-only">🏆 HIGH SCORES — CTF Writeups</span>
+    <span class="pro-only">CTF Writeups</span>
+  </a>
 </div>
 </div>
 
 ---
 
-## 📰 LATEST TRANSMISSIONS
+## <span class="retro-only">📰 LATEST TRANSMISSIONS</span><span class="pro-only">Latest Work</span>
 
 <div class="card-grid">
   <div class="card pixel-box--cyan">
@@ -56,16 +73,19 @@ description: "Portfolio of y0xhz — Senior Penetration Tester, Red Team Operato
 
 ---
 
-## 📊 CONTRIBUTION MAP
+## 📊 Contribution Map
 
 <div align="center" style="margin: 2rem 0;">
-  <img src="https://ghchart.rshah.org/FF0055/y0xhz" alt="y0xhz's GitHub Contribution Graph" style="max-width: 100%; border: 4px solid #333; background: #0a0a0a; padding: 1rem;">
+  <img src="https://ghchart.rshah.org/06b6d4/y0xhz" alt="y0xhz's GitHub Contribution Graph" style="max-width: 100%; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-elevated); padding: 1rem;">
 </div>
 
 ---
 
 <div class="pixel-box pixel-box--yellow" style="text-align: center;">
-  <p style="font-family: var(--font-pixel); font-size: 0.7rem; color: var(--c-yellow); margin: 0;">
+  <p style="font-family: var(--font-pixel); font-size: 0.7rem; color: var(--c-yellow); margin: 0;" class="retro-only">
     🎯 CURRENT OBJECTIVE: Master malware development & cloud offensive security
+  </p>
+  <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text); margin: 0; font-weight: 500;" class="pro-only">
+    🎯 Current Focus: Malware development & cloud offensive security
   </p>
 </div>

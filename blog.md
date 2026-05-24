@@ -1,22 +1,25 @@
 ---
 layout: page
 title: "Blog"
-subtitle: "Captain's Log / Adventure Journal"
+subtitle: "<span class='retro-only'>Captain's Log / Adventure Journal</span><span class='pro-only'>Blog</span>"
 description: "Security research, walkthroughs, and thoughts from y0xhz — Senior Penetration Tester and Red Team Operator."
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <p style="font-family: var(--font-pixel); font-size: 0.8rem; color: var(--c-cyan);">
+  <p style="font-family: var(--font-pixel); font-size: 0.8rem; color: var(--c-cyan);" class="retro-only">
     📜 CAPTAIN'S LOG 📜
   </p>
-  <p style="font-size: 0.85rem; color: var(--c-dim);">
+  <p style="font-size: 0.9rem; color: var(--text-muted); font-weight: 500;" class="pro-only">
+    ARTICLES & RESEARCH
+  </p>
+  <p style="font-size: 0.85rem; color: var(--text-muted);">
     <a href="{{ '/feed.xml' | relative_url }}">→ Subscribe via RSS</a>
   </p>
 </div>
 
 ---
 
-## 📂 JOURNAL ENTRIES
+## <span class="retro-only">📂 JOURNAL ENTRIES</span><span class="pro-only">Articles</span>
 
 <div class="card-grid">
   <div class="card pixel-box--magenta">
@@ -51,7 +54,10 @@ description: "Security research, walkthroughs, and thoughts from y0xhz — Senio
 ---
 
 <div class="pixel-box" style="text-align: center; border-style: dashed;">
-  <p style="font-family: var(--font-pixel); font-size: 0.65rem; color: var(--c-dim); margin: 0;">
+  <p style="font-family: var(--font-pixel); font-size: 0.65rem; color: var(--text-muted); margin: 0;" class="retro-only">
     📡 TRANSMISSIONS INCOMING — STAY TUNED
+  </p>
+  <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; font-weight: 500;" class="pro-only">
+    More articles coming soon — stay tuned.
   </p>
 </div>
