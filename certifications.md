@@ -29,7 +29,7 @@ description: "Certifications and professional achievements of y0xhz — OSCP, CR
     <div class="trophy-icon">🎖️</div>
     <div class="trophy-name">CRTO2</div>
     <p style="font-size: 0.85rem; color: var(--c-light);">Certified Red Team Operator 2</p>
-    <p style="font-size: 0.75rem; color: var(--c-dim);">In Progress — Expected Sept 2026</p>
+    <p style="font-size: 0.75rem; color: var(--c-dim);">In Progress</p>
     <div class="xp-bar">
       <div class="xp-bar-fill" style="width: 45%"></div>
     </div>
@@ -39,12 +39,34 @@ description: "Certifications and professional achievements of y0xhz — OSCP, CR
   <div class="trophy-card in-progress">
     <div class="trophy-icon">🎖️</div>
     <div class="trophy-name">HTB CAPE</div>
-    <p style="font-size: 0.85rem; color: var(--c-light);">Hack The Box Certified AppSec Practitioner</p>
-    <p style="font-size: 0.75rem; color: var(--c-dim);">In Progress — Expected Sept 2026</p>
+    <p style="font-size: 0.85rem; color: var(--c-light);">Hackthebox Certified AppSec Practitioner</p>
+    <p style="font-size: 0.75rem; color: var(--c-dim);">In Progress</p>
     <div class="xp-bar">
       <div class="xp-bar-fill" style="width: 40%"></div>
     </div>
     <p class="xp-label">XP: 40% → NEXT LEVEL</p>
+  </div>
+
+  <div class="trophy-card earned">
+    <div class="trophy-icon">🏆</div>
+    <div class="trophy-name">ECIH</div>
+    <p style="font-size: 0.85rem; color: var(--c-light);">EC-Council Certified Incident Handler</p>
+    <p style="font-size: 0.75rem; color: var(--c-dim);">Trophy Earned</p>
+    <div class="xp-bar">
+      <div class="xp-bar-fill" style="width: 100%"></div>
+    </div>
+    <p class="xp-label">XP: MAX LEVEL</p>
+  </div>
+
+  <div class="trophy-card earned">
+    <div class="trophy-icon">🏆</div>
+    <div class="trophy-name">PT1</div>
+    <p style="font-size: 0.85rem; color: var(--c-light);">TryHackMe Penetration Tester</p>
+    <p style="font-size: 0.75rem; color: var(--c-dim);">Trophy Earned</p>
+    <div class="xp-bar">
+      <div class="xp-bar-fill" style="width: 100%"></div>
+    </div>
+    <p class="xp-label">XP: MAX LEVEL</p>
   </div>
 
   <div class="trophy-card locked">
