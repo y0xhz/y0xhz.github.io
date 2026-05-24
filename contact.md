@@ -37,7 +37,7 @@ description: "Contact y0xhz for red team consulting, guest lectures, CTF challen
 ## <span class="retro-only">🌀 WARP POINTS</span><span class="pro-only">Social Links</span>
 
 <div class="warp-grid">
-  <a href="https://linkedin.com/in/y0xhz" class="warp-link" target="_blank" rel="noopener">🔗 LinkedIn</a>
+  <a href="https://www.linkedin.com/in/yokhaa/" class="warp-link" target="_blank" rel="noopener">🔗 LinkedIn</a>
   <a href="https://github.com/y0xhz" class="warp-link" target="_blank" rel="noopener">🐙 GitHub</a>
   <a href="https://app.hackthebox.com/profile/y0xhz" class="warp-link" target="_blank" rel="noopener">📦 HTB</a>
   <a href="https://hacktrace.id" class="warp-link" target="_blank" rel="noopener">🏛️ HackTrace</a>
