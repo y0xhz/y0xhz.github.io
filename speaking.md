@@ -55,6 +55,12 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
     <p>Trainer for the Red Team operations course.</p>
   </div>
 
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace</p>
+    <p>Trainer for the Red Team Academy program.</p>
+  </div>
+
 </div>
 
 ### 2024
@@ -101,6 +107,12 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
     <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace Webinar</p>
     <p>Trainer for the practical penetration testing basics webinar focused on foundational skills for aspiring security professionals.</p>
   </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace</p>
+    <p>Trainer for the Red Team Academy program.</p>
+  </div>
 </div>
 
 ### 2023
@@ -140,6 +152,12 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
     <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic</h4>
     <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency</p>
     <p>Assistant Trainer for the basic penetration testing course.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace</p>
+    <p>Trainer for the Red Team Academy program.</p>
   </div>
 </div>
 
