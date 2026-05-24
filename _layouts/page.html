@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="page-content">
+  {% if page.title %}
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p style="color: var(--c-dim); font-size: 0.9rem; margin-top: -1rem;">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+  {% endif %}
+
+  <div class="page-body">
+    {{ content }}
+  </div>
+</article>

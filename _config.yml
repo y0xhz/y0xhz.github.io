@@ -1,0 +1,79 @@
+# Site Settings
+title: "y0xhz | Red Team Operator"
+description: "Senior Penetration Tester & Offensive Security Specialist based in Indonesia. Red Team Arsenal, CTF Writeups, AI Skills, and Security Research."
+author:
+  name: "y0xhz"
+  email: "yokhanalam@gmail.com"
+  location: "Indonesia"
+baseurl: ""
+url: "https://y0xhz.github.io"
+lang: en
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO / Social
+seo_tag:
+  type: Person
+  social:
+    name: y0xhz
+    links:
+      - https://github.com/y0xhz
+      - https://linkedin.com/in/y0xhz
+      - https://app.hackthebox.com/profile/y0xhz
+      - https://ctftime.org/user/y0xhz
+      - https://hackerone.com/y0xhz
+
+twitter:
+  username: y0xhz
+
+# Collections
+collections:
+  writeups:
+    output: true
+    permalink: /ctf-writeups/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - README.md
+
+# Feed
+feed:
+  path: feed.xml
