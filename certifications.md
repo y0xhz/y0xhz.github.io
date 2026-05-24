@@ -28,7 +28,7 @@ description: "Certifications and professional achievements of y0xhz — OSCP, CR
   <div class="trophy-card in-progress">
     <div class="trophy-icon">🎖️</div>
     <div class="trophy-name">CRTO</div>
-    <p style="font-size: 0.85rem; color: var(--c-light);">Certified Red Team Operator 2</p>
+    <p style="font-size: 0.85rem; color: var(--c-light);">Certified Red Team Operator</p>
     <p style="font-size: 0.75rem; color: var(--c-dim);">In Progress</p>
     <div class="xp-bar">
       <div class="xp-bar-fill" style="width: 45%"></div>
@@ -39,7 +39,7 @@ description: "Certifications and professional achievements of y0xhz — OSCP, CR
   <div class="trophy-card in-progress">
     <div class="trophy-icon">🎖️</div>
     <div class="trophy-name">HTB CAPE</div>
-    <p style="font-size: 0.85rem; color: var(--c-light);">Hackthebox Certified AppSec Practitioner</p>
+    <p style="font-size: 0.85rem; color: var(--c-light);">HTB Certified Active Directory Pentesting Expert</p>
     <p style="font-size: 0.75rem; color: var(--c-dim);">In Progress</p>
     <div class="xp-bar">
       <div class="xp-bar-fill" style="width: 40%"></div>
