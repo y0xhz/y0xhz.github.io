@@ -2,7 +2,7 @@
 layout: page
 title: "Speaking"
 subtitle: "<span class='retro-only'>NPC Quest Giver / Tavern Board</span><span class='pro-only'>Speaking</span>"
-description: "Speaking engagements, guest lectures, and available conference topics by y0xhz — Senior Penetration Tester and Red Team Operator."
+description: "Speaking engagements, guest lectures, and training sessions by y0xhz — Senior Penetration Tester and Red Team Operator."
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
@@ -19,40 +19,126 @@ description: "Speaking engagements, guest lectures, and available conference top
 ## <span class="retro-only">✅ COMPLETED QUESTS</span><span class="pro-only">Past Events</span>
 
 <div class="quest-board">
-  <h3>🎓 University Guest Lectures</h3>
-  
+  <h3>🎓 University & Academy</h3>
+
   <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Cybersecurity Training & Workshops</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ Multiple Sessions</p>
-    <p>Delivered hands-on cybersecurity training covering penetration testing methodologies, vulnerability assessment, and secure coding practices for students and faculty.</p>
+    <h4 style="color: var(--success); margin-top: 0;">Web Exploitation</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2025</p>
+    <p>Trainer for the Web Exploit training session.</p>
   </div>
 
   <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Offensive Security & Red Team Fundamentals</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Indonesia (UI) · 🗓️ Multiple Sessions</p>
-    <p>Guest lecture series on offensive security fundamentals, red team operations, and real-world attack simulation for computer science and information security students.</p>
-  </div>
-
-  <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Network Security & Ethical Hacking</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 ITDel (Institut Teknologi Del) · 🗓️ Multiple Sessions</p>
-    <p>Practical workshops on network penetration testing, Active Directory attacks, and defensive strategies. Focused on lab-based learning with live demonstrations.</p>
-  </div>
-
-  <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Cybersecurity Awareness & Digital Safety</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Sekolah Citabuana · 🗓️ Multiple Sessions</p>
-    <p>Introductory cybersecurity sessions designed for younger audiences. Covered digital safety, social engineering awareness, and foundational security hygiene.</p>
+    <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic: Practical Skills for Cyber Security Enthusiasts</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 University Program · 🗓️ 2024</p>
+    <p>Trainer for the practical penetration testing basics workshop.</p>
   </div>
 </div>
 
 <div class="quest-board" style="margin-top: 2rem;">
-  <h3>🏢 Corporate & Private Sector Training</h3>
-  
+  <h3>🏛️ Government & State-Owned Enterprises</h3>
+
   <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Cybersecurity Training & Workshops</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Private Sector · 🗓️ Multiple Engagements</p>
-    <p>Delivered cybersecurity training programs across various industry sectors on a range of offensive security topics. Specific clients, sectors, and topics remain confidential under NDA.</p>
+    <h4 style="color: var(--success); margin-top: 0;">Cyberthreat and Security Awareness Webinar</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Bea Cukai · 🗓️ 2024</p>
+    <p>Trainer for the cybersecurity awareness webinar.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cyberthreat and Security Awareness Webinar</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2024</p>
+    <p>Trainer for the cybersecurity awareness webinar.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Basic Web Application Hacking</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PUPR · 🗓️ 2024</p>
+    <p>Trainer for the basic web application hacking workshop.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Basic Pentesting Workshop: Techniques, Tips, and Report Formatting</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Program · 🗓️ 2024</p>
+    <p>Trainer for the basic pentesting and report writing workshop.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Basic Hacking with Kali Linux</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Bank Kalteng · 🗓️ 2023</p>
+    <p>Trainer for the basic Kali Linux hacking workshop.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cybersecurity Fundamentals</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PT Pusri · 🗓️ 2023</p>
+    <p>Trainer for the cybersecurity fundamentals program.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">OSINT Operation Intermediate</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p>Assistant Trainer for the intermediate OSINT operations course.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">OSINT Operation Basic</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p>Assistant Trainer for the basic OSINT operations course.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Intermediate</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p>Assistant Trainer for the intermediate penetration testing course.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p>Assistant Trainer for the basic penetration testing course.</p>
+  </div>
+</div>
+
+<div class="quest-board" style="margin-top: 2rem;">
+  <h3>🏢 Private Sector & Corporate</h3>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">OSINT Operation Basic</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 AHM · 🗓️ Oktober 2025</p>
+    <p>Assistant Trainer for the basic OSINT operations training.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Red Team Operations</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PT Stealien · 🗓️ Agustus 2025</p>
+    <p>Trainer for the Red Team operations course.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace · 🗓️ 2025</p>
+    <p>Trainer for the Cyberwolves Red Team Academy program.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">A Beginner's Journey in Bug Bounties</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Workshop · 🗓️ 2024</p>
+    <p>Trainer for the beginner bug bounty workshop.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">MITRE ATT&CK</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PT BTPNS · 🗓️ 2024</p>
+    <p>Assistant Trainer for the MITRE ATT&CK framework training.</p>
+  </div>
+</div>
+
+<div class="quest-board" style="margin-top: 2rem;">
+  <h3>🎮 Community</h3>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Hacktrace Ranges Discord Community</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Discord · 🗓️ 2022 – Juli 2025</p>
+    <p>Host and Trainer for the Hacktrace Ranges Discord community.</p>
   </div>
 </div>
 
