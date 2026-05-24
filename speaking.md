@@ -35,8 +35,8 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic: Practical Skills for Cyber Security Enthusiasts</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2024</p>
-    <p>Trainer for the practical penetration testing basics workshop focused on foundational skills for aspiring security professionals.</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace Webinar · 🗓️ 2024</p>
+    <p>Trainer for the practical penetration testing basics webinar focused on foundational skills for aspiring security professionals.</p>
   </div>
 
   <div class="quest-item">
