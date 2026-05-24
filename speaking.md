@@ -16,24 +16,40 @@ description: "Speaking engagements, guest lectures, and available conference top
 ## ✅ COMPLETED QUESTS
 
 <div class="quest-board">
-  <h3>🎓 HackTrace Guest Lectures</h3>
+  <h3>🎓 University Guest Lectures</h3>
   
   <div class="quest-item">
-    <h4 style="color: var(--c-lime); margin-top: 0;">Penetration Testing Methodologies</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 HackTrace · 🗓️ Multiple Sessions</p>
-    <p>Comprehensive walkthrough of penetration testing methodologies, from reconnaissance to post-exploitation. Covered OWASP Testing Guide, PTES, and real-world scenarios encountered during client engagements.</p>
+    <h4 style="color: var(--c-lime); margin-top: 0;">Cybersecurity Training & Workshops</h4>
+    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 Universitas Jember · 🗓️ Multiple Sessions</p>
+    <p>Delivered hands-on cybersecurity training covering penetration testing methodologies, vulnerability assessment, and secure coding practices for students and faculty.</p>
   </div>
 
   <div class="quest-item">
-    <h4 style="color: var(--c-lime); margin-top: 0;">Red Team Operations & Adversary Simulation</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 HackTrace · 🗓️ Multiple Sessions</p>
-    <p>Introduction to red team operations, threat actor emulation, and adversary simulation frameworks. Discussed attack chain design, OPSEC considerations, and reporting strategies for red team engagements.</p>
+    <h4 style="color: var(--c-lime); margin-top: 0;">Offensive Security & Red Team Fundamentals</h4>
+    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 Universitas Indonesia (UI) · 🗓️ Multiple Sessions</p>
+    <p>Guest lecture series on offensive security fundamentals, red team operations, and real-world attack simulation for computer science and information security students.</p>
   </div>
 
   <div class="quest-item">
-    <h4 style="color: var(--c-lime); margin-top: 0;">Secure Development Lifecycle for Developers</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 HackTrace · 🗓️ Multiple Sessions</p>
-    <p>Bridging the gap between development and security. Covered secure coding practices, common vulnerability patterns, code review techniques, and integrating security into CI/CD pipelines.</p>
+    <h4 style="color: var(--c-lime); margin-top: 0;">Network Security & Ethical Hacking</h4>
+    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 ITDel (Institut Teknologi Del) · 🗓️ Multiple Sessions</p>
+    <p>Practical workshops on network penetration testing, Active Directory attacks, and defensive strategies. Focused on lab-based learning with live demonstrations.</p>
+  </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--c-lime); margin-top: 0;">Cybersecurity Awareness & Digital Safety</h4>
+    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 Sekolah Citabuana · 🗓️ Multiple Sessions</p>
+    <p>Introductory cybersecurity sessions designed for younger audiences. Covered digital safety, social engineering awareness, and foundational security hygiene.</p>
+  </div>
+</div>
+
+<div class="quest-board" style="margin-top: 2rem;">
+  <h3>🏢 Corporate & Private Sector Training</h3>
+  
+  <div class="quest-item">
+    <h4 style="color: var(--c-lime); margin-top: 0;">Red Team & Adversary Simulation Training</h4>
+    <p style="font-size: 0.85rem; color: var(--c-dim);">📍 Private Sector · 🗓️ Multiple Engagements</p>
+    <p>Conducted offensive security training programs for various organizations across different industry sectors. Topics included penetration testing, red team operations, and incident response preparedness. Specific clients and sectors remain confidential under NDA.</p>
   </div>
 </div>
 

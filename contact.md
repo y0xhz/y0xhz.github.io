@@ -37,8 +37,6 @@ description: "Contact y0xhz for red team consulting, guest lectures, CTF challen
   <a href="https://linkedin.com/in/y0xhz" class="warp-link" target="_blank" rel="noopener">🔗 LINKEDIN</a>
   <a href="https://github.com/y0xhz" class="warp-link" target="_blank" rel="noopener">🐙 GITHUB</a>
   <a href="https://app.hackthebox.com/profile/y0xhz" class="warp-link" target="_blank" rel="noopener">📦 HTB</a>
-  <a href="https://ctftime.org/user/y0xhz" class="warp-link" target="_blank" rel="noopener">⏱️ CTFTIME</a>
-  <a href="https://hackerone.com/y0xhz" class="warp-link" target="_blank" rel="noopener">🐞 HACKERONE</a>
   <a href="https://hacktrace.id" class="warp-link" target="_blank" rel="noopener">🏛️ HACKTRACE</a>
 </div>
 
