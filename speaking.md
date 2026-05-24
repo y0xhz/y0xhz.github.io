@@ -23,14 +23,14 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Web Exploitation</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2025</p>
-    <p>Trainer for the Web Exploit training session.</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 University · 🗓️ 2025</p>
+    <p>Trainer for the web exploitation training session covering common web vulnerabilities and exploitation techniques.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic: Practical Skills for Cyber Security Enthusiasts</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 University Program · 🗓️ 2024</p>
-    <p>Trainer for the practical penetration testing basics workshop.</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 University · 🗓️ 2024</p>
+    <p>Trainer for the practical penetration testing basics workshop focused on foundational skills for aspiring security professionals.</p>
   </div>
 </div>
 
@@ -39,61 +39,55 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Cyberthreat and Security Awareness Webinar</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Bea Cukai · 🗓️ 2024</p>
-    <p>Trainer for the cybersecurity awareness webinar.</p>
-  </div>
-
-  <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Cyberthreat and Security Awareness Webinar</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2024</p>
-    <p>Trainer for the cybersecurity awareness webinar.</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2024</p>
+    <p>Trainer for the cybersecurity awareness webinar covering threat landscapes and defensive practices.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Basic Web Application Hacking</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PUPR · 🗓️ 2024</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2024</p>
     <p>Trainer for the basic web application hacking workshop.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Basic Pentesting Workshop: Techniques, Tips, and Report Formatting</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Program · 🗓️ 2024</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2024</p>
     <p>Trainer for the basic pentesting and report writing workshop.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Basic Hacking with Kali Linux</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Bank Kalteng · 🗓️ 2023</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 State-Owned Bank · 🗓️ 2023</p>
     <p>Trainer for the basic Kali Linux hacking workshop.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Cybersecurity Fundamentals</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PT Pusri · 🗓️ 2023</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 State-Owned Enterprise · 🗓️ 2023</p>
     <p>Trainer for the cybersecurity fundamentals program.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">OSINT Operation Intermediate</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2023</p>
     <p>Assistant Trainer for the intermediate OSINT operations course.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">OSINT Operation Basic</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2023</p>
     <p>Assistant Trainer for the basic OSINT operations course.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Intermediate</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2023</p>
     <p>Assistant Trainer for the intermediate penetration testing course.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 BSSN · 🗓️ 2023</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Government Agency · 🗓️ 2023</p>
     <p>Assistant Trainer for the basic penetration testing course.</p>
   </div>
 </div>
@@ -103,20 +97,20 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">OSINT Operation Basic</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 AHM · 🗓️ Oktober 2025</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Corporate · 🗓️ 2025</p>
     <p>Assistant Trainer for the basic OSINT operations training.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Red Team Operations</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PT Stealien · 🗓️ Agustus 2025</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Private Company · 🗓️ 2025</p>
     <p>Trainer for the Red Team operations course.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace · 🗓️ 2025</p>
-    <p>Trainer for the Cyberwolves Red Team Academy program.</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Private Academy · 🗓️ 2025</p>
+    <p>Trainer for the Red Team Academy program.</p>
   </div>
 
   <div class="quest-item">
@@ -127,7 +121,7 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">MITRE ATT&CK</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 PT BTPNS · 🗓️ 2024</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Corporate · 🗓️ 2024</p>
     <p>Assistant Trainer for the MITRE ATT&CK framework training.</p>
   </div>
 </div>
@@ -136,9 +130,9 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
   <h3>🎮 Community</h3>
 
   <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Hacktrace Ranges Discord Community</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Discord · 🗓️ 2022 – Juli 2025</p>
-    <p>Host and Trainer for the Hacktrace Ranges Discord community.</p>
+    <h4 style="color: var(--success); margin-top: 0;">Hacktrace Ranges</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Discord Community · 🗓️ 2022 – 2025</p>
+    <p>Host and Trainer for the community-driven cybersecurity range platform.</p>
   </div>
 </div>
 
