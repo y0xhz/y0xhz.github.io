@@ -23,19 +23,19 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Web Exploitation</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2025</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2026</p>
     <p>Trainer for the web exploitation training session covering common web vulnerabilities and exploitation techniques.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Penetration Testing Basic: Practical Skills for Cyber Security Enthusiasts</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2024</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Universitas Jember · 🗓️ 2026</p>
     <p>Trainer for the practical penetration testing basics workshop focused on foundational skills for aspiring security professionals.</p>
   </div>
 
   <div class="quest-item">
     <h4 style="color: var(--success); margin-top: 0;">Safe, Smart, & Supervised Digital Use for Parenting Control</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Sekolah Citabuana · 🗓️ Various</p>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Sekolah Citabuana · 🗓️ 2026</p>
     <p>Trainer for digital safety and parenting control session focused on safe, smart, and supervised digital use.</p>
   </div>
 </div>
