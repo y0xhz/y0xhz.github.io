@@ -49,7 +49,7 @@ description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casu
 
 <div class="pixel-box" style="border-style: dashed; border-color: var(--warning);">
   <h3 style="color: var(--warning); margin-top: 0;">🏗️ CTF CHALLENGE — UNDER CONSTRUCTION</h3>
-  <p>Building a custom and challenge repository.</p>
+  <p>Building a custom challenge repository.</p>
 </div>
 
 ---

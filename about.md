@@ -110,7 +110,7 @@ When I'm not breaking things professionally, I'm designing CTF challenges and bu
 ## <span class="retro-only">⚔️ BOSS BATTLES WON (Speaking)</span><span class="pro-only">Speaking</span>
 
 <div class="pixel-box pixel-box--lime">
-  <h3 style="color: var(--success); margin-top: 0;" class="retro-only">🏛️ HackTrace Lectures</h3>
+  <h3 style="color: var(--success); margin-top: 0;" class="retro-only">🏛️ Selected Talks</h3>
   <h3 style="color: var(--text); margin-top: 0;" class="pro-only">Selected Talks</h3>
   <ul>
     <li>Penetration Testing Methodologies & Real-World Scenarios</li>
