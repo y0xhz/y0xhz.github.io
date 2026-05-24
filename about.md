@@ -30,7 +30,7 @@ Senior Penetration Tester and Offensive Security Specialist operating from Indon
 
 Guest Lecturer & Cybersecurity Consultant at **HackTrace**, where I teach the next generation of offensive security practitioners.
 
-When I'm not breaking things professionally, I'm designing CTF challenges, researching quantum cryptography, and building tools in Rust.
+When I'm not breaking things professionally, I'm designing CTF challenges and building tools in Rust.
 
 ---
 

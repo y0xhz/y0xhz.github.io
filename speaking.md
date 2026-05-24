@@ -84,11 +84,6 @@ description: "Speaking engagements, guest lectures, and available conference top
     <p>Educational design principles for security challenges. How to create Boot2Root labs that balance difficulty, storytelling, and learning outcomes.</p>
   </div>
 
-  <div class="quest-item available">
-    <h4 style="color: var(--c-yellow); margin-top: 0;">Quantum Computing vs. Modern Cryptography</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">💡 Topic · 45-60 min</p>
-    <p>What happens when quantum computers break RSA? A practical guide to post-quantum cryptography and what organizations should do today.</p>
-  </div>
 </div>
 
 ---

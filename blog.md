@@ -40,13 +40,6 @@ description: "Security research, walkthroughs, and thoughts from y0xhz — Senio
     <p style="margin-bottom: 0;"><em>Coming Soon — Q4 2026</em></p>
   </div>
 
-  <div class="card pixel-box--lime">
-    <h3>⚛️ Introduction to Post-Quantum Cryptography</h3>
-    <p class="card-meta">Cryptography · Research · Quantum</p>
-    <p>Understanding the threat quantum computing poses to modern encryption and what defensive measures organizations should consider today.</p>
-    <p style="margin-bottom: 0;"><em>Coming Soon — Q4 2026</em></p>
-  </div>
-
   <div class="card pixel-box--purple">
     <h3>🎮 Designing Boot2Root CTF Challenges</h3>
     <p class="card-meta">CTF · Education · Challenge Design</p>
