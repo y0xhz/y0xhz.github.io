@@ -83,7 +83,7 @@
 [data-theme="retro"] .pro-only { display: none; }
 
 /* Inline variants */
-span.retro-only, span.pro-only { display: inline; }
+span.pro-only { display: inline; }
 [data-theme="retro"] span.pro-only { display: none; }
 [data-theme="retro"] span.retro-only { display: inline; }
 
