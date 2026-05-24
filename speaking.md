@@ -47,43 +47,10 @@ description: "Speaking engagements, guest lectures, and available conference top
   <h3>🏢 Corporate & Private Sector Training</h3>
   
   <div class="quest-item">
-    <h4 style="color: var(--c-lime); margin-top: 0;">Red Team & Adversary Simulation Training</h4>
+    <h4 style="color: var(--c-lime); margin-top: 0;">Cybersecurity Training & Workshops</h4>
     <p style="font-size: 0.85rem; color: var(--c-dim);">📍 Private Sector · 🗓️ Multiple Engagements</p>
-    <p>Conducted offensive security training programs for various organizations across different industry sectors. Topics included penetration testing, red team operations, and incident response preparedness. Specific clients and sectors remain confidential under NDA.</p>
+    <p>Delivered cybersecurity training programs across various industry sectors on a range of offensive security topics. Specific clients, sectors, and topics remain confidential under NDA.</p>
   </div>
-</div>
-
----
-
-## 🔔 AVAILABLE QUESTS
-
-<div class="quest-board">
-  <h3>📢 Conference & Event Topics</h3>
-  
-  <div class="quest-item available">
-    <h4 style="color: var(--c-yellow); margin-top: 0;">Rust for Offensive Security</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">💡 Topic · 45-60 min</p>
-    <p>Why Rust is becoming the language of choice for offensive tooling. Memory safety meets malware development. Live demo of a Rust-based PE packer with custom cryptography.</p>
-  </div>
-
-  <div class="quest-item available">
-    <h4 style="color: var(--c-yellow); margin-top: 0;">Cloud Red Teaming: AWS & GCP</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">💡 Topic · 45-60 min</p>
-    <p>Real-world cloud penetration testing stories. IAM privilege escalation, container escapes, serverless exploitation, and how to defend against them.</p>
-  </div>
-
-  <div class="quest-item available">
-    <h4 style="color: var(--c-yellow); margin-top: 0;">Mobile App Security Deep Dive</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">💡 Topic · 45-60 min / Workshop</p>
-    <p>From SSL pinning to RASP bypass — a hands-on journey through modern mobile application security testing. Workshop option includes Frida scripting lab.</p>
-  </div>
-
-  <div class="quest-item available">
-    <h4 style="color: var(--c-yellow); margin-top: 0;">Building CTF Challenges That Teach</h4>
-    <p style="font-size: 0.85rem; color: var(--c-dim);">💡 Topic · 30-45 min</p>
-    <p>Educational design principles for security challenges. How to create Boot2Root labs that balance difficulty, storytelling, and learning outcomes.</p>
-  </div>
-
 </div>
 
 ---
