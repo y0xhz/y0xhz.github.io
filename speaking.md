@@ -32,6 +32,12 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
     <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Sekolah Citabuana</p>
     <p>Trainer for digital safety and parenting control session focused on safe, smart, and supervised digital use.</p>
   </div>
+
+  <div class="quest-item">
+    <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Hacktrace</p>
+    <p>Trainer for the Red Team Academy program.</p>
+  </div>
 </div>
 
 ### 2025
@@ -49,11 +55,6 @@ description: "Speaking engagements, guest lectures, and training sessions by y0x
     <p>Trainer for the Red Team operations course.</p>
   </div>
 
-  <div class="quest-item">
-    <h4 style="color: var(--success); margin-top: 0;">Cyberwolves Red Team Academy</h4>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">📍 Private Academy</p>
-    <p>Trainer for the Red Team Academy program.</p>
-  </div>
 </div>
 
 ### 2024
