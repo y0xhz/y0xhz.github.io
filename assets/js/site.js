@@ -6,7 +6,7 @@
   function updateThemeControl() {
     const dark = root.dataset.theme === 'dark';
     toggle.setAttribute('aria-pressed', String(dark));
-    document.querySelector('meta[name="theme-color"]').content = dark ? '#20211e' : '#f5f2eb';
+    document.querySelector('meta[name="theme-color"]').content = dark ? '#191919' : '#f5f2eb';
   }
 
   if (toggle) {

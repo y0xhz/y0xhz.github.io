@@ -41,6 +41,11 @@ diagram is an inline SVG, so no external images or fonts are needed to render
 the interface. The Explore menu works without JavaScript; the optional dark
 theme is stored locally.
 
+Dark mode uses neutral charcoal, softer off-white text, and a muted sand accent
+for interaction. Its headings use a smaller, upright treatment, annotations
+stay neutral, and research illustrations and callouts use simple rules instead
+of tinted panels.
+
 Keep project status explicit. Link to repositories or articles only when they
 exist; use plain status text for unpublished work. Avoid decorative skill
 percentages, invented metrics, and duplicate placeholder entries. Existing
