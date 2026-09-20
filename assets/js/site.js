@@ -1,21 +1,27 @@
 (() => {
   const root = document.documentElement;
-  const toggle = document.querySelector('.theme-toggle');
+  const picker = document.querySelector('.theme-picker');
   const menu = document.querySelector('.more-nav');
+  const colors = { light: '#f5f2eb', dark: '#191919', retro: '#11170f' };
 
   function updateThemeControl() {
-    const dark = root.dataset.theme === 'dark';
-    toggle.setAttribute('aria-pressed', String(dark));
-    document.querySelector('meta[name="theme-color"]').content = dark ? '#191919' : '#f5f2eb';
+    const theme = Object.hasOwn(colors, root.dataset.theme) ? root.dataset.theme : 'light';
+    root.dataset.theme = theme;
+    picker.querySelectorAll('[data-theme-choice]').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.themeChoice === theme));
+    });
+    document.querySelector('meta[name="theme-color"]').content = colors[theme];
   }
 
-  if (toggle) {
-    toggle.hidden = false;
+  if (picker) {
+    picker.hidden = false;
     updateThemeControl();
-    toggle.addEventListener('click', () => {
-      root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      try { localStorage.setItem('portfolio-theme', root.dataset.theme); } catch (error) { /* Theme works without storage. */ }
-      updateThemeControl();
+    picker.querySelectorAll('[data-theme-choice]').forEach(button => {
+      button.addEventListener('click', () => {
+        root.dataset.theme = button.dataset.themeChoice;
+        try { localStorage.setItem('portfolio-theme', root.dataset.theme); } catch (error) { /* Theme works without storage. */ }
+        updateThemeControl();
+      });
     });
   }
 

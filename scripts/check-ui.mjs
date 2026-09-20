@@ -21,7 +21,7 @@ try {
   page.setDefaultTimeout(10000);
   page.on('pageerror', error => errors.push(error.message));
 
-  for (const theme of ['light', 'dark']) {
+  for (const theme of ['light', 'dark', 'retro']) {
     await page.goto(base);
     await page.evaluate(theme => localStorage.setItem('portfolio-theme', theme), theme);
     for (const width of widths) {
@@ -33,7 +33,9 @@ try {
         assert.equal(await page.locator('nav [aria-current="page"]').count(), 1, path + ' active navigation');
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
         assert.equal(overflow, false, theme + ' ' + path + ' overflows at ' + width);
-        assert.equal(await page.locator('.theme-toggle').getAttribute('aria-pressed'), String(theme === 'dark'));
+        assert.equal(await page.locator('.theme-option[aria-pressed="true"]').count(), 1);
+        assert.equal(await page.locator('.theme-option[aria-pressed="true"]').getAttribute('data-theme-choice'), theme);
+        assert.equal(await page.locator('html').getAttribute('data-theme'), theme);
         const links = await page.locator('a[href]').evaluateAll(nodes =>
           nodes.map(node => node.href).filter(href => href.startsWith(location.origin)));
         links.forEach(link => destinations.add(link));
@@ -87,13 +89,20 @@ try {
   await page.keyboard.press('Tab');
   await page.waitForFunction(() => !document.querySelector('.more-nav').open);
 
-  const before = await page.locator('.theme-toggle').getAttribute('aria-pressed');
-  await page.locator('.theme-toggle').click();
-  await page.reload();
-  assert.notEqual(await page.locator('.theme-toggle').getAttribute('aria-pressed'), before);
-  await page.goto(base + '/projects');
-  assert.notEqual(await page.locator('.theme-toggle').getAttribute('aria-pressed'), before);
-  console.log('PASS keyboard navigation, dismissal, and persisted theme');
+  for (const theme of ['light', 'dark', 'retro']) {
+    const choice = page.locator('[data-theme-choice="' + theme + '"]');
+    await choice.focus();
+    await page.keyboard.press('Space');
+    assert.equal(await choice.getAttribute('aria-pressed'), 'true');
+    assert.equal(await page.locator('html').getAttribute('data-theme'), theme);
+    await page.reload();
+    assert.equal(await choice.getAttribute('aria-pressed'), 'true');
+    await page.goto(base + '/projects');
+    assert.equal(await choice.getAttribute('aria-pressed'), 'true');
+    const themeColor = await page.locator('meta[name="theme-color"]').getAttribute('content');
+    assert.equal(themeColor, { light: '#f5f2eb', dark: '#191919', retro: '#11170f' }[theme]);
+  }
+  console.log('PASS keyboard navigation, dismissal, and persistence of all three themes');
 
   await page.emulateMedia({ reducedMotion: 'reduce' });
   assert.equal(await page.locator('.text-link').first().evaluate(node => getComputedStyle(node).transitionDuration), '0s');
@@ -111,14 +120,24 @@ try {
   const blockedPage = await blocked.newPage();
   blockedPage.on('pageerror', error => errors.push(error.message));
   await blockedPage.goto(base);
-  await blockedPage.locator('.theme-toggle').click();
-  assert.equal(await blockedPage.locator('.theme-toggle').getAttribute('aria-pressed'), 'true');
+  for (const theme of ['retro', 'dark', 'light']) {
+    await blockedPage.locator('[data-theme-choice="' + theme + '"]').click();
+    assert.equal(await blockedPage.locator('html').getAttribute('data-theme'), theme);
+  }
   await blocked.close();
+
+  for (const value of ['unknown', '__proto__']) {
+    await page.evaluate(value => localStorage.setItem('portfolio-theme', value), value);
+    await page.reload();
+    assert.equal(await page.locator('html').getAttribute('data-theme'), 'light');
+    assert.equal(await page.locator('[data-theme-choice="light"]').getAttribute('aria-pressed'), 'true');
+  }
+  console.log('PASS invalid saved preferences fall back to Light');
 
   const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 375, height: 812 } });
   const noJsPage = await noJs.newPage();
   await noJsPage.goto(base);
-  assert.equal(await noJsPage.locator('.theme-toggle').isVisible(), false);
+  assert.equal(await noJsPage.locator('.theme-picker').isVisible(), false);
   await noJsPage.locator('.more-nav summary').click();
   await noJsPage.getByRole('link', { name: 'Certifications', exact: true }).click();
   assert.equal(await noJsPage.locator('h1').innerText(), 'Study & certifications.');

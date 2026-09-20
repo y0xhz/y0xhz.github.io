@@ -16,9 +16,11 @@
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <script>
     try {
-      if (localStorage.getItem('portfolio-theme') === 'dark') {
-        document.documentElement.dataset.theme = 'dark';
-        document.querySelector('meta[name="theme-color"]').content = '#191919';
+      const saved = localStorage.getItem('portfolio-theme');
+      const colors = { light: '#f5f2eb', dark: '#191919', retro: '#11170f' };
+      if (Object.hasOwn(colors, saved)) {
+        document.documentElement.dataset.theme = saved;
+        document.querySelector('meta[name="theme-color"]').content = colors[saved];
       }
     } catch (error) { /* Reading preferences is optional. */ }
   </script>
@@ -32,10 +34,11 @@
     <div class="masthead">
       <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="y0xhz — home">y0xhz<span aria-hidden="true">.</span></a>
       <div class="header-actions">
-        <button class="theme-toggle" type="button" aria-pressed="false" hidden>
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg>
-          <span>Dark mode</span>
-        </button>
+        <div class="theme-picker" role="group" aria-label="Color theme" hidden>
+          <button class="theme-option" type="button" data-theme-choice="light" aria-pressed="true">Light</button>
+          <button class="theme-option" type="button" data-theme-choice="dark" aria-pressed="false">Dark</button>
+          <button class="theme-option" type="button" data-theme-choice="retro" aria-pressed="false">Retro</button>
+        </div>
         <a class="header-contact" href="{{ '/contact' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
       </div>
     </div>
