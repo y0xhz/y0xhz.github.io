@@ -73,6 +73,10 @@ exclude:
   - .jekyll-cache
   - .jekyll-metadata
   - README.md
+  - artifacts
+  - scripts
+  - package.json
+  - package-lock.json
 
 # Feed
 feed:

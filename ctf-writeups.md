@@ -1,73 +1,25 @@
 ---
 layout: page
-title: "CTF Writeups"
-subtitle: "<span class='retro-only'>Mission Select Screen</span><span class='pro-only'>Writeups</span>"
-description: "CTF walkthroughs, writeups, and challenge solutions by y0xhz. Casual player — writeups shared for educational purposes."
+title: "The writeup log."
+kicker: "Capture the flag"
+subtitle: "Notes on the process: what I tried, what worked, and what I learned."
+description: "CTF walkthroughs and challenge notes by y0xhz, shared for learning."
 ---
-
-<div class="mission-banner">
-  <span class="retro-only">🎮 ARCADE MODE — CASUAL PLAYER — WRITEUPS FOR EDUCATION ONLY 🎮</span>
-  <span class="pro-only">CTF Writeups — Casual player, no competitive rankings</span>
+<p class="lede">I play CTFs for the learning. These are the notes I’m turning into walkthroughs.</p>
+<div class="entry-list">
+  <article class="entry" id="htb-business-2026">
+    <div class="entry-meta">HackTheBox / 2026<span>Writeups in progress</span></div>
+    <div>
+      <h2>HackTheBox Business CTF 2026</h2>
+      <p>Notes from challenges across full pwn, coding, and OSINT. I’m working through the solutions and documenting the techniques.</p>
+      <p class="project-tags">Full pwn <span>/</span> Coding <span>/</span> OSINT</p>
+      <span class="status-label">Walkthroughs not yet published</span>
+    </div>
+  </article>
 </div>
 
-> **Note:** I play CTFs for fun and learning, not active competition. You won't find rankings, leaderboard positions, or competitive stats here — just honest walkthroughs and technique breakdowns.
+## On the other side of the challenge
 
----
+I’m also building a custom challenge repository, including Boot2Root scenarios with multi-stage exploitation and a story to follow.
 
-## 🔍 Filter Controls
-
-<div class="filter-bar">
-  <button class="filter-btn active" onclick="filterMissions('all')">ALL MISSIONS</button>
-  <button class="filter-btn" onclick="filterMissions('htb')">HACKTHEBOX</button>
-  <button class="filter-btn" onclick="filterMissions('htb-business-2026')">HTB BUSINESS 2026</button>
-  <button class="filter-btn" onclick="filterMissions('full-pwn')">FULL PWN</button>
-  <button class="filter-btn" onclick="filterMissions('coding')">CODING</button>
-  <button class="filter-btn" onclick="filterMissions('osint')">OSINT</button>
-  <button class="filter-btn" onclick="filterMissions('thm')">TRYHACKME</button>
-  <button class="filter-btn" onclick="filterMissions('web')">WEB</button>
-  <button class="filter-btn" onclick="filterMissions('pwn')">PWN</button>
-  <button class="filter-btn" onclick="filterMissions('rev')">REVERSE</button>
-  <button class="filter-btn" onclick="filterMissions('forensics')">FORENSICS</button>
-</div>
-
----
-
-## 📋 <span class="retro-only">MISSION LOG</span><span class="pro-only">Writeups</span>
-
-<div class="mission-card status-wip" data-tags="htb htb-business-2026 full-pwn coding osint">
-  <div class="mission-status">🚧 WIP</div>
-  <h3 style="margin-top: 0.5rem;">Hackthebox Business CTF 2026</h3>
-  <p><strong>Event:</strong> Hackthebox Business 2026 · <strong>Platform:</strong> Hackthebox</p>
-  <p><strong>Categories:</strong> Full Pwn · Coding · OSINT</p>
-  <p>Casual participation in the Hackthebox Business CTF 2026. Writeups covering challenges across full pwn, coding, and OSINT categories. Focus on technique breakdowns and educational value.</p>
-  <p style="margin-bottom: 0;"><em>Writeups in progress — check back soon.</em></p>
-</div>
-
----
-
-## 🚧 <span class="retro-only">UPCOMING PROJECTS</span><span class="pro-only">Upcoming</span>
-
-<div class="pixel-box" style="border-style: dashed; border-color: var(--warning);">
-  <h3 style="color: var(--warning); margin-top: 0;">🏗️ CTF CHALLENGE — UNDER CONSTRUCTION</h3>
-  <p>Building a custom challenge repository.</p>
-</div>
-
----
-
-<script>
-function filterMissions(tag) {
-  const cards = document.querySelectorAll('.mission-card');
-  const buttons = document.querySelectorAll('.filter-btn');
-  
-  buttons.forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
-  
-  cards.forEach(card => {
-    if (tag === 'all' || card.dataset.tags.includes(tag)) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
-</script>
+<a class="text-link" href="{{ '/projects' | relative_url }}#boot2root">About the challenge project <span aria-hidden="true">↗</span></a>
