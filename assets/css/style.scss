@@ -1,6 +1,14 @@
 ---
 ---
 
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('../fonts/silkscreen/Silkscreen-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Paper, ink, and a single annotation colour. No external font requests. */
 :root {
   color-scheme: light;
@@ -32,18 +40,22 @@
 }
 [data-theme="retro"] {
   color-scheme: dark;
-  --paper: #11170f;
-  --ink: #badb9c;
-  --muted: #91ab83;
-  --accent: #e8c57b;
-  --rule: #42583a;
-  --soft: #1b2618;
-  --figure: #0c120b;
-  --figure-ink: #badb9c;
-  --figure-rule: #58724c;
+  --paper: #171329;
+  --ink: #fff0c5;
+  --muted: #c4b9dc;
+  --accent: #ffe082;
+  --rule: #74658f;
+  --soft: #28213f;
+  --figure: #211b36;
+  --figure-ink: #93d7ff;
+  --figure-rule: #74658f;
+  --game-mint: #88e0b2;
+  --game-coral: #ff9787;
+  --game-shadow: #090713;
+  --pixel: 'Silkscreen', 'Courier New', monospace;
   --mono: 'Courier New', Courier, monospace;
   --sans: var(--mono);
-  --serif: var(--mono);
+  --serif: var(--pixel);
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-padding-top: 24px; }
@@ -55,6 +67,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 button, summary { cursor: pointer; font: inherit; }
 button { color: inherit; }
 [hidden] { display: none !important; }
+.arcade-only { display: none; }
 h1, h2, h3, h4, p { margin: 0; }
 h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; line-height: 1.12; text-wrap: balance; }
 h1 { letter-spacing: -.045em; }
@@ -250,41 +263,80 @@ th { font-weight: 600; }
 [data-theme="dark"] .more-links { box-shadow: none; }
 [data-theme="dark"] .notice,
 [data-theme="dark"] .defense-note { background: transparent; border-left: 1px solid var(--rule); }
-/* A restrained phosphor terminal: fixed-width type, hard edges, no flicker. */
+/* Arcade mode: pixel lettering, sprite art, and raised game-menu controls. */
+[data-theme="retro"] .arcade-only { display: block; }
 [data-theme="retro"] h1,
 [data-theme="retro"] h2,
-[data-theme="retro"] h3 { font-weight: 700; letter-spacing: -.035em; }
-[data-theme="retro"] .intro h1 { font-size: clamp(1.8rem, 4vw, 3.4rem); line-height: 1.3; text-transform: uppercase; }
-[data-theme="retro"] .page-header h1 { font-size: clamp(1.8rem, 4.7vw, 3.5rem); line-height: 1.25; }
+[data-theme="retro"] h3 { font-weight: 400; letter-spacing: 0; line-height: 1.5; }
+[data-theme="retro"] .intro { grid-template-columns: minmax(0, 1fr) 300px; gap: 56px; padding: 64px 0 44px; }
+[data-theme="retro"] .intro h1 { font-size: clamp(1.4rem, 3.1vw, 2.7rem); line-height: 1.55; color: var(--accent); text-shadow: 4px 4px 0 var(--game-shadow); }
+[data-theme="retro"] .intro h1 em { color: var(--game-mint); }
+[data-theme="retro"] .page-header h1 { font-size: clamp(1.4rem, 3.2vw, 2.5rem); color: var(--accent); text-shadow: 3px 3px 0 var(--game-shadow); }
 [data-theme="retro"] .intro h1 em,
 [data-theme="retro"] .featured-copy h3 em,
 [data-theme="retro"] .contact-strip h2 em { font-style: normal; }
-[data-theme="retro"] .small-cross { font-size: 0; }
-[data-theme="retro"] .small-cross::before { content: '>'; font-size: .875rem; }
-[data-theme="retro"] .wordmark { letter-spacing: -.08em; }
-[data-theme="retro"] .margin-note > p:not(.small-copy) { font-size: 1rem; line-height: 1.7; }
-[data-theme="retro"] .margin-note em { font-style: normal; }
-[data-theme="retro"] .main-nav { border-top: 3px double var(--ink); border-bottom: 1px solid var(--rule); }
-[data-theme="retro"] .theme-option[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+[data-theme="retro"] .intro-main > .eyebrow { display: none; }
+[data-theme="retro"] .arcade-label { font: .75rem/1.8 var(--pixel); color: var(--game-coral); }
+[data-theme="retro"] .arcade-label span + span { margin-left: 20px; color: var(--muted); font-family: var(--mono); }
+[data-theme="retro"] .wordmark,
+[data-theme="retro"] .footer-signature { font: 1.7rem/1.5 var(--pixel); letter-spacing: -.06em; color: var(--accent); text-shadow: 3px 3px 0 var(--game-shadow); }
+[data-theme="retro"] .margin-note { display: block; margin: 0; padding: 20px; border: 3px double var(--rule); background: var(--soft); box-shadow: 6px 6px 0 var(--game-shadow); }
+[data-theme="retro"] .arcade-scene { margin: -8px -8px 22px; }
+[data-theme="retro"] .arcade-scene svg { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+[data-theme="retro"] .arcade-caption { display: block; padding: 10px 8px; background: var(--game-shadow); color: var(--game-mint); font: .75rem/1.8 var(--pixel); text-align: center; }
+[data-theme="retro"] .margin-note > p:not(.small-copy) { font: 1rem/1.7 var(--mono); margin: 14px 0; }
+[data-theme="retro"] .margin-note em { font-style: normal; color: var(--game-mint); }
+[data-theme="retro"] .note-marker { color: var(--game-coral); }
+[data-theme="retro"] .main-nav { border-top: 3px double var(--rule); border-bottom: 3px double var(--rule); }
+[data-theme="retro"] .theme-option { border: 2px solid transparent; }
+[data-theme="retro"] .theme-option[aria-pressed="true"] { background: var(--accent); color: var(--paper); border-color: var(--ink); box-shadow: 3px 3px 0 var(--game-shadow); }
 [data-theme="retro"] .theme-option[aria-pressed="true"]::after { display: none; }
-[data-theme="retro"] .section-heading { border-top: 3px double var(--rule); }
-[data-theme="retro"] .section-heading h2 { text-transform: uppercase; font-size: .8rem; letter-spacing: 0; }
-[data-theme="retro"] .research-figure { border: 1px solid var(--figure-rule); box-shadow: 5px 5px 0 var(--soft); }
+[data-theme="retro"] .arcade-menu { display: flex; flex-wrap: wrap; gap: 16px; margin: 0 0 64px; }
+[data-theme="retro"] .arcade-menu a,
+[data-theme="retro"] .text-link { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 16px; border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--game-shadow); background: var(--accent); color: var(--paper); font: 700 .8125rem/1.6 var(--mono); text-decoration: none; gap: 12px; }
+[data-theme="retro"] .arcade-menu a:nth-child(2) { background: var(--game-mint); }
+[data-theme="retro"] .arcade-menu a:nth-child(3) { background: var(--game-coral); }
+[data-theme="retro"] .arcade-menu a:hover,
+[data-theme="retro"] .text-link:hover { background: var(--ink); }
+[data-theme="retro"] .arcade-menu a:active,
+[data-theme="retro"] .text-link:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--game-shadow); }
+[data-theme="retro"] .text-link::after { display: none; }
+[data-theme="retro"] .section-heading { border-top: 3px double var(--rule); padding-top: 20px; }
+[data-theme="retro"] .section-heading h2 { font: .875rem/1.8 var(--pixel); color: var(--game-mint); }
+[data-theme="retro"] .research-figure { border: 3px double var(--figure-rule); box-shadow: 6px 6px 0 var(--game-shadow); }
 [data-theme="retro"] .figure-top { color: var(--accent); }
 [data-theme="retro"] .pe-diagram { shape-rendering: crispEdges; }
-[data-theme="retro"] .featured-copy h3 { font-size: clamp(1.8rem, 3vw, 2.5rem); line-height: 1.25; }
-[data-theme="retro"] .row-title { font-weight: 700; }
+[data-theme="retro"] .featured-copy h3 { font-size: clamp(1.4rem, 2.1vw, 1.9rem); line-height: 1.6; }
+[data-theme="retro"] .featured-copy h3 em { color: var(--game-mint); }
+[data-theme="retro"] .project-row { padding: 22px 18px; border: 2px solid var(--rule); background: var(--soft); margin-bottom: 16px; box-shadow: 4px 4px 0 var(--game-shadow); }
+[data-theme="retro"] .project-row:hover { border-color: var(--accent); }
+[data-theme="retro"] .row-number { color: var(--game-coral); }
+[data-theme="retro"] .row-title { font: 1rem/1.8 var(--pixel); }
 [data-theme="retro"] .row-title > span { font-weight: 400; }
-[data-theme="retro"] .status-dot { border-radius: 0; }
-[data-theme="retro"] .more-links { border: 2px solid var(--ink); box-shadow: 5px 5px 0 var(--rule); }
+[data-theme="retro"] .notebook-lead h3 { font-size: clamp(1.3rem, 2.2vw, 1.8rem); line-height: 1.6; }
+[data-theme="retro"] .note-link { font: 1rem/1.6 var(--mono); }
+[data-theme="retro"] .personal-note { font: 1rem/1.7 var(--mono); color: var(--game-mint); }
+[data-theme="retro"] .status-dot { border-radius: 0; background: var(--game-mint); }
+[data-theme="retro"] .more-links { border: 3px double var(--ink); background: var(--soft); box-shadow: 5px 5px 0 var(--game-shadow); }
 [data-theme="retro"] .notice,
-[data-theme="retro"] .defense-note { border: 1px solid var(--rule); border-left: 3px solid var(--accent); }
-[data-theme="retro"] .contact-strip { border-top: 3px double var(--ink); }
+[data-theme="retro"] .defense-note { border: 3px double var(--rule); background: var(--soft); }
+[data-theme="retro"] .entry h2,
+[data-theme="retro"] .entry h3,
+[data-theme="retro"] .inventory-card h3 { font-size: 1.25rem; line-height: 1.7; }
+[data-theme="retro"] .page-body > h2,
+[data-theme="retro"] .prose h2,
+[data-theme="retro"] .contact-layout h2 { font-size: 1.4rem; }
+[data-theme="retro"] .page-body .lede { font: 1.15rem/1.8 var(--mono); }
+[data-theme="retro"] .contact-email { font-family: var(--mono); }
+[data-theme="retro"] .cert-list strong { font: 1rem/1.8 var(--pixel); }
+[data-theme="retro"] .contact-strip { border-top: 3px double var(--rule); }
+[data-theme="retro"] .contact-strip h2 { font-size: clamp(1.2rem, 2vw, 1.7rem); line-height: 1.7; }
 [data-theme="retro"] .site-footer { border-top: 3px double var(--rule); }
 @media (min-width: 1500px) {
   .intro { padding-top: 98px; padding-bottom: 102px; }
 }
 @media (max-width: 1000px) {
+  [data-theme="retro"] .intro { grid-template-columns: minmax(0, 1fr) 240px; gap: 32px; }
   .intro { gap: 40px; grid-template-columns: minmax(0, 1fr) 210px; }
   .intro h1 { font-size: 3.65rem; }
   .featured-work, .notebook-grid, .contact-strip { gap: 35px; }
@@ -293,6 +345,11 @@ th { font-weight: 600; }
   .about-layout { gap: 40px; }
 }
 @media (max-width: 760px) {
+  [data-theme="retro"] .intro { grid-template-columns: minmax(0, 1fr); padding: 40px 0 32px; }
+  [data-theme="retro"] .wordmark { font-size: 1.25rem; }
+  [data-theme="retro"] .arcade-scene { max-width: 320px; margin: 0 auto 20px; }
+  [data-theme="retro"] .arcade-menu { display: grid; grid-template-columns: minmax(0, 1fr); margin-bottom: 44px; }
+  [data-theme="retro"] .section-heading { flex-wrap: wrap; }
   .site-header, .site-main, .site-footer { width: calc(100% - 40px); }
   .masthead { min-height: 90px; gap: 20px; }
   .wordmark { font-size: 2rem; }

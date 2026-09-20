@@ -36,7 +36,8 @@ manual keyboard and visual review.
 ## Design & content
 
 The design uses a paper background, ink text, a terracotta accent, serif
-headlines, and monospace annotations. Fonts are local system stacks. The PE
+headlines, and monospace annotations. Reading text uses system font stacks;
+Retro headings use the locally hosted Silkscreen font. The PE
 diagram is an inline SVG, so no external images or fonts are needed to render
 the interface. The Explore menu works without JavaScript. The Light, Dark,
 and Retro buttons support keyboard activation and store the selected theme
@@ -48,9 +49,13 @@ for interaction. Its headings use a smaller, upright treatment, annotations
 stay neutral, and research illustrations and callouts use simple rules instead
 of tinted panels.
 
-Retro mode takes its cues from phosphor terminals: green text, amber accents,
-monospace type, square controls, and double-line separators. It uses system
-fonts, with no blinking text or animated screen effects.
+Retro mode takes its cues from 8-bit arcade games: pixel headlines, a midnight
+purple background, gold buttons, mint and coral accents, raised menu panels,
+and an original pixel-art scene with a character, coins, and a treasure chest.
+The homepage includes working project, quest-log, and player-profile shortcuts
+only in Retro mode. There are no blinking text or animated screen effects.
+Silkscreen is bundled under its SIL Open Font License; see
+[`assets/fonts/silkscreen/OFL.txt`](assets/fonts/silkscreen/OFL.txt).
 
 Keep project status explicit. Link to repositories or articles only when they
 exist; use plain status text for unpublished work. Avoid decorative skill

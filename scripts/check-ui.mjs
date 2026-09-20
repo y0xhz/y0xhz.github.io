@@ -29,6 +29,15 @@ try {
       for (const path of paths) {
         const response = await page.goto(base + path);
         assert.equal(response.status(), 200, path);
+        await page.evaluate(() => document.fonts.ready);
+        if (theme === 'retro') {
+          assert.ok(await page.evaluate(() => [...document.fonts].some(font => font.family === 'Silkscreen' && font.status === 'loaded')), 'Retro pixel font failed to load');
+        }
+        if (path === '/') {
+          for (const block of await page.locator('.arcade-only').all()) {
+            assert.equal(await block.isVisible(), theme === 'retro', 'Arcade content must follow the selected theme');
+          }
+        }
         assert.equal(await page.locator('h1').count(), 1, path + ' needs one h1');
         assert.equal(await page.locator('nav [aria-current="page"]').count(), 1, path + ' active navigation');
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
@@ -100,7 +109,7 @@ try {
     await page.goto(base + '/projects');
     assert.equal(await choice.getAttribute('aria-pressed'), 'true');
     const themeColor = await page.locator('meta[name="theme-color"]').getAttribute('content');
-    assert.equal(themeColor, { light: '#f5f2eb', dark: '#191919', retro: '#11170f' }[theme]);
+    assert.equal(themeColor, { light: '#f5f2eb', dark: '#191919', retro: '#171329' }[theme]);
   }
   console.log('PASS keyboard navigation, dismissal, and persistence of all three themes');
 

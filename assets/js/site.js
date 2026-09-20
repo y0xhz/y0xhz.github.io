@@ -2,7 +2,7 @@
   const root = document.documentElement;
   const picker = document.querySelector('.theme-picker');
   const menu = document.querySelector('.more-nav');
-  const colors = { light: '#f5f2eb', dark: '#191919', retro: '#11170f' };
+  const colors = { light: '#f5f2eb', dark: '#191919', retro: '#171329' };
 
   function updateThemeControl() {
     const theme = Object.hasOwn(colors, root.dataset.theme) ? root.dataset.theme : 'light';

@@ -17,7 +17,7 @@
   <script>
     try {
       const saved = localStorage.getItem('portfolio-theme');
-      const colors = { light: '#f5f2eb', dark: '#191919', retro: '#11170f' };
+      const colors = { light: '#f5f2eb', dark: '#191919', retro: '#171329' };
       if (Object.hasOwn(colors, saved)) {
         document.documentElement.dataset.theme = saved;
         document.querySelector('meta[name="theme-color"]').content = colors[saved];

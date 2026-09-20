@@ -5,12 +5,40 @@ description: "The working notebook of y0xhz. Penetration testing, red team resea
 ---
 <section class="intro" aria-labelledby="intro-title">
   <div class="intro-main">
+    <div class="arcade-only arcade-label" aria-hidden="true"><span>PLAYER 01</span><span>y0xhz’s world</span></div>
     <p class="eyebrow"><span class="small-cross" aria-hidden="true">+</span> Independent notes & ongoing work</p>
     <h1 id="intro-title">Breaking systems.<br><em>Keeping notes.</em></h1>
     <p class="intro-copy">I’m y0xhz, a penetration tester and red team operator based in Indonesia. This is where I keep my tools, research, and the things I learn along the way.</p>
     <a class="text-link" href="{{ '/about' | relative_url }}">A little about me <span aria-hidden="true">↗</span></a>
   </div>
   <aside class="margin-note" aria-label="Current interests">
+    <div class="arcade-only arcade-scene" aria-hidden="true">
+      <svg viewBox="0 0 192 136" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" focusable="false">
+        <path fill="#30264c" d="M0 0h192v136H0z"/>
+        <path fill="#fff0c5" d="M17 15h3v3h-3zm37 13h2v2h-2zm73-12h3v3h-3zm41 28h2v2h-2zM93 9h2v2h-2z"/>
+        <path fill="#93d7ff" d="M146 12h16v4h4v16h-4v4h-16v-4h-4V16h4z"/>
+        <path fill="#30264c" d="M154 12h8v4h4v16h-12v-4h-4V16h4z"/>
+        <path fill="#463a63" d="M0 80h12V60h20v8h12v26h18V74h18v22h26V76h12V56h20v16h18v18h16V62h20v58H0z"/>
+        <path fill="#171329" d="M0 112h192v24H0z"/>
+        <path fill="#88e0b2" d="M0 108h192v5H0z"/>
+        <path fill="#558775" d="M0 113h192v4H0z"/>
+        <path fill="#463a63" d="M6 124h8v4H6zm24-4h4v4h-4zm26 7h8v4h-8zm58-6h8v4h-8zm34 6h4v4h-4zm24-5h8v4h-8z"/>
+        <path fill="#ffe082" d="M30 55h8v3h3v12h-3v3h-8v-3h-3V58h3zm18-12h8v3h3v12h-3v3h-8v-3h-3V46h3z"/>
+        <path fill="#b77c40" d="M33 58h2v12h-2zm18-12h2v12h-2z"/>
+        <path fill="#171329" d="M81 54h22v4h5v22h-5v4H81v-4h-5V58h5z"/>
+        <path fill="#ff9787" d="M81 62h22v17H81z"/>
+        <path fill="#718ada" d="M78 54h25v5H78zM76 59h35v5H76z"/>
+        <path fill="#171329" d="M95 67h4v4h-4z"/>
+        <path fill="#93d7ff" d="M82 82h19v15H82z"/>
+        <path fill="#718ada" d="M82 93h8v11h-8zm12 0h8v11h-8z"/>
+        <path fill="#fff0c5" d="M78 104h13v4H78zm16 0h13v4H94z"/>
+        <path fill="#ff9787" d="M77 85h5v9h-5zm24 0h5v9h-5z"/>
+        <path fill="#ffe082" d="M140 87h24v4h4v17h-32V91h4z"/>
+        <path fill="#b77c40" d="M138 95h28v3h-28zm11-5h5v13h-5z"/>
+        <path fill="#fff0c5" d="M149 95h5v4h-5z"/>
+      </svg>
+      <span class="arcade-caption">SIDE QUEST IN PROGRESS</span>
+    </div>
     <span class="note-marker" aria-hidden="true">[ In the margins ]</span>
     <p>Currently digging into<br><em>malware development<br>& cloud security.</em></p>
     <div class="note-rule"></div>
@@ -18,6 +46,12 @@ description: "The working notebook of y0xhz. Penetration testing, red team resea
     <a href="{{ '/speaking' | relative_url }}">Teaching & talks <span aria-hidden="true">↗</span></a>
   </aside>
 </section>
+
+<nav class="arcade-only arcade-menu" aria-label="Arcade shortcuts">
+  <a href="{{ '/projects' | relative_url }}"><span aria-hidden="true">▶</span> Select a project</a>
+  <a href="{{ '/ctf-writeups' | relative_url }}"><span aria-hidden="true">◆</span> Open quest log</a>
+  <a href="{{ '/about' | relative_url }}"><span aria-hidden="true">✚</span> Player profile</a>
+</nav>
 
 <section class="work-section" aria-labelledby="work-title">
   <div class="section-heading">
